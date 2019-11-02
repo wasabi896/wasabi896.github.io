@@ -1,271 +1,271 @@
 * {
-  ボックスサイズ：ボーダーボックス;
+  box-sizing: border-box;
 }
 
-体 {
-  マージン：0;
-  フォントファミリー：「ひらぎの角ゴシックProN」;
+body {
+  margin: 0;
+  font-family: "Hiragino Kaku Gothic ProN";
 }
 
-{
-  テキスト装飾：なし;
+a {
+  text-decoration: none;
 }
 
 .container {
-  幅：100％;
-  パディング：0 15px;
-  マージン：0自動;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
 }
 
 .top-wrapper {
-  パディング：180px 0 100px 0;
-  背景画像：url（top.png）;
-  背景サイズ：カバー;
-  色：白;
-  text-align：center;
+  padding: 180px 0 100px 0;
+  background-image: url(top.png);
+  background-size: cover;
+  color: white;
+  text-align: center;
 }
 
 .top-wrapper h1 {
-  不透明度：0.7;
-  フォントサイズ：45px;
-  文字間隔：5px;
+  opacity: 0.7;
+  font-size: 45px;
+  letter-spacing: 5px;
 }
 
 .top-wrapper p {
-  不透明度：0.7;
-  フォントサイズ：16px;
-  マージン底：40px;
+  opacity: 0.7;
+  font-size: 16px;
+  margin-bottom: 40px;
 }
 
 .btn-wrapper {
-  text-align：center;
+  text-align: center;
 }
 
 .btn-wrapper p {
-  余白：20ピクセル;
+  margin-bottom: 20px;
 }
 
-。サインアップ {
-  背景色：＃239b76;
+.signup {
+  background-color: #239b76;
 }
 
-。フェイスブック {
-  背景色：＃3b5998;
-  マージン右：10px;
+.facebook {
+  background-color: #3b5998;
+  margin-right: 10px;
 }
 
-。ツイッター {
-  背景色：＃55acee;
+.twitter {
+  background-color: #55acee;
 }
 
 .btn {
-  パディング：8px 24px;
-  色：白;
-  表示：インラインブロック。
-  不透明度：0.8;
-  ボーダー半径：4px;
-  text-align：center;
+  padding: 8px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+  text-align: center;
 }
 
-.btn：hover {
-  不透明度：1;
+.btn:hover {
+  opacity: 1;
 }
 
 .fa {
-  マージン右：5px;
+  margin-right: 5px;
 }
 
-ヘッダー{
-  高さ：65px;
-  幅：100％;
-  背景色：rgba（34,49,52,0.9）;
-  位置：固定;
-  top：0;
-  z-index：10;
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(34,49,52,0.9);
+  position :fixed;
+  top: 0;
+  z-index: 10;
 }
 
 .logo {
-  幅：124px;
-  マージン上部：20px;
+  width: 124px;
+  margin-top: 20px;
 }
 
 .header-left {
-  float：左;
+  float: left;
 }
 
 .header-right {
-  フロート：右;
-  マージン右：-25px;
+  float: right;
+  margin-right: -25px;
 }
 
 .header-right a {
-  行の高さ：65px;
-  パディング：0 25px;
-  色：白;
-  表示ブロック;
-  float：左;
-  遷移：すべて0.5秒。
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+  float: left;
+  transition: all 0.5s;
 }
 
-.header-right a：hover {
-  背景色：rgba（255,255,255,0.3）;
+.header-right a:hover {
+  background-color: rgba(255,255,255,0.3);
 }
 
 .lesson-wrapper {
-  高さ：580px;
-  padding-bottom：80px;
-  左詰め：5％;
-  右詰め：5％;
-  背景色：＃f7f7f7;
-  text-align：center;
+  height: 580px;
+  padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #f7f7f7;
+  text-align: center;
 }
 
 .heading {
-  パディングトップ：80px;
-  padding-bottom：50px;
-  色：＃5f5d60;
+  padding-top: 80px;
+  padding-bottom: 50px;
+  color: #5f5d60;
 }
 
 .heading h2 {
-  フォントの太さ：通常。
+  font-weight: normal;
 }
 
-。レッスン {
-  float：左;
-  幅：25％;
+.lesson {
+  float: left;
+  width: 25%;
 }
 
 .lesson-icon {
-  位置：相対;
+  position: relative;
 }
 
 .lesson-icon p {
-  位置：絶対;
-  トップ：37％;
-  幅：100％;
-  色：白;
+  position: absolute;
+  top: 37%;
+  width: 100%;
+  color: white;
 }
 
 .text-contents {
-  幅：80％;
-  表示：インラインブロック。
-  マージン上部：15px;
-  フォントサイズ：13px;
-  色：＃b3aeb5;
+  width: 80%;
+  display: inline-block;
+  margin-top: 15px;
+  font-size: 13px;
+  color: #b3aeb5;
 }
 
 .heading h3 {
-  フォントの太さ：通常。
+  font-weight: normal;
 }
 
 .message-wrapper {
-  border-bottom：1px solid #eee;
-  padding-bottom：80px;
-  text-align：center;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 80px;
+  text-align: center;
 }
 
 .message {
-  パディング：15px 40px;
-  背景色：＃5dca88;
-  カーソル：ポインター。
-  box-shadow：0px 7px＃1a7940;
+  padding: 15px 40px;
+  background-color: #5dca88;
+  cursor: pointer;
+  box-shadow: 0px 7px #1a7940;
 }
 
-.message：active {
-  位置：相対;
-  上：7px;
-  box-shadow：none;
+.message:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
 }
 
-フッターimg {
-  幅：125px;
+footer img {
+  width: 125px;
 }
 
-フッターp {
-  色：＃b3aeb5;
-  フォントサイズ：12px;
+footer p {
+  color: #b3aeb5;
+  font-size: 12px;
 }
 
-フッター{
-  パディングトップ：30px;
-  padding-bottom：20px;
+footer {
+  padding-top: 30px;
+  padding-bottom: 20px;
 }
 
 .menu-icon {
-  色：白;
-  フロート：右;
-  フォントサイズ：25px;
-  パディング：21px 0;
-  ディスプレイ：なし;
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  display: none;
 }
 
-。クリア {
-  クリア：左。
+.clear {
+  clear: left;
 }
 
-@media allおよび（max-width：1000px）{
-  。レッスン {
-    幅：50％;
-    余白：50ピクセル;
+@media all and (max-width: 1000px) {
+  .lesson {
+    width: 50%;
+    margin-bottom: 50px;
   }
 
   .lesson-wrapper {
-    高さ：990px​​;
+    height: 990px;
   }
 
-  フッター{
-    text-align：center;
+  footer {
+    text-align: center;
   }
 }
 
-@media allおよび（max-width：750px）{
+@media all and (max-width: 750px) {
   .top-wrapper h1 {
-    フォントサイズ：32px;
+    font-size: 32px;
   }
 
   .heading h2 {
-    フォントサイズ：20px;
+    font-size: 20px;
   }
 }
 
-@media allおよび（max-width：670px）{
+@media all and (max-width: 670px) {
   .header-right {
-    ディスプレイ：なし;
+    display: none;
   }
 
   .menu-icon {
-    表示ブロック;
+    display: block;
   }
 
   .top-wrapper .btn {
-    幅：100％;
+    width: 100%;
   }
 
-  。ツイッター {
-    マージン上部：10px;
+  .twitter {
+    margin-top: 10px;
   }
 
   .top-wrapper {
-    テキスト揃え：左;
+    text-align: left;
   }
 
   .top-wrapper h1 {
-    フォントサイズ：24px;
+    font-size: 24px;
   }
 
   .top-wrapper p {
-    フォントサイズ：14px;
+    font-size: 14px;
   }
 
-  。レッスン {
-    幅：100％;
+  .lesson {
+    width: 100%;
   }
 
   .lesson-wrapper {
-    高さ：1700px;
+    height: 1700px;
   }
 
   .message-wrapper .btn {
-    幅：100％;
+    width: 100%;
   }
 }
