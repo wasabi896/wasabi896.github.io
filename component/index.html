@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>コンポーネント化テスト</title>
+  <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+  <script>
+		$(function(){
+      $("#area01").load("area01.html");
+      console.log("パーツ読み込み")
+    });
+	</script>
+  <style>
+    main{
+      width: 750px;
+      margin: 20px auto 20px;
+      background: #f3f3f3;
+      padding: 15px;
+    }
+    .content-box{
+      padding: 10px;
+      background-color: yellow;
+    }
+    .content-box--red{
+      background-color: red;
+    }
+    .big-box{
+      font-size: 22px;
+    }
+  </style>
+</head>
+<body>
+
+  <main>
+    <p class="content-box">コンテンツコンテンツコンテンツコンテンツコンテンツコンテンツ</p>
+    <div id="area01"></div>
+    <p class="content-box">コンテンツコンテンツコンテンツコンテンツコンテンツコンテンツコンテンツコンテンツコンテンツコンテンツ</p>
+    <p></p>
+  </main>
+  
+</body>
+</html>
