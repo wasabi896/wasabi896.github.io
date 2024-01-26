@@ -1,1 +1,0 @@
-$(function(){ $.ajaxSetup({cache:false}); $("#include").load("Include-File.html"); });
